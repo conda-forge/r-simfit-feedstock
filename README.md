@@ -1,11 +1,11 @@
-About r-simfit
-==============
+About r-simfit-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-simfit-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=simfit
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-simfit-feedstock/blob/main/LICENSE.txt)
 
 Summary: Simulates data from model objects (e.g., from lm(), glm()), and plots this along with the original data to compare how well the simulated data matches the original data to determine model fit.
 
