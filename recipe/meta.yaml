@@ -1,6 +1,5 @@
 {% set version = '0.1.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-simfit
@@ -13,8 +12,7 @@ source:
   sha256: fe512a14a0201072fdc9486b588ff888489ea9f492bb37853fa1f5bbfb9d9372
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
